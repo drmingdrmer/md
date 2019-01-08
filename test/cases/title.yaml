@@ -1,0 +1,25 @@
+text: |-4
+    # h1
+    ##   h2 trailing text
+    ###h3
+    ####  h4
+    #####  h5
+
+yaml:
+    - type: header
+      level: 1
+      text: h1
+    - type: header
+      level: 2
+      text: "h2 trailing text"
+    - type: header
+      level: 3
+      text: "h3"
+    - type: header
+      level: 4
+      text: "h4"
+    - type: header
+      level: 5
+      text: "h5"
+
+# vim: sw=2

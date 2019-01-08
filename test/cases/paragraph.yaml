@@ -1,0 +1,28 @@
+text: |-4
+    # h1
+    paragraph
+    # h1-again
+    paragraph-2-lines
+    paragraph-2-lines
+
+    paragraph-3
+
+yaml:
+    - type: header
+      level: 1
+      text: h1
+
+    - type: paragraph
+      text: "paragraph"
+
+    - type: header
+      level: 1
+      text: h1-again
+
+    - type: paragraph
+      text: "paragraph-2-lines\nparagraph-2-lines"
+
+    - type: paragraph
+      text: "paragraph-3"
+
+# vim: sw=2
